@@ -186,7 +186,7 @@ describe('LinkedList', () => {
             function fn() {
                 list.append(4).reverse().deleteAt(0).clear().insertAt(0, 3);
             }
-
+            
             expect(fn).to.not.throw();
         })
     })
